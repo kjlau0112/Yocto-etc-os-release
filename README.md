@@ -1,7 +1,7 @@
 This is the best known method to implement yocto linux versioning.
 
 
-1.Edit  meta/recipes-core/os-release/os-release.bb to something like this below:
+1. Edit  meta/recipes-core/os-release/os-release.bb to something like this below:
 
 ID = "${DISTRO}"
 NAME = "${DISTRO_NAME}"
