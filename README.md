@@ -1,5 +1,6 @@
 This is the best known method to implement yocto linux versioning.
 
+
 1.Edit  meta/recipes-core/os-release/os-release.bb to something like this below:
 
 ID = "${DISTRO}"
@@ -15,7 +16,7 @@ BUILD_VERSION = "${BUG_FIXED_VERSION}"
 
 2. Go back to build directory, bitbake os-release
 
-3.If bitbake os-release run succcessfully, bitbake the image again 
+3. If bitbake os-release run succcessfully, bitbake the image again 
 
 4. Unzip the tar file in a local folder
 
