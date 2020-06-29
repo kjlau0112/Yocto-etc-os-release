@@ -12,13 +12,9 @@ BUILD_ID[vardepsexclude] = "DATETIME"
 OS_RELEASE_FIELDS += "BUILD_VERSION"
 BUG_FIXED_VERSION = "1.0.0-B1"
 BUILD_VERSION = "${BUG_FIXED_VERSION}"
-
 2. Go back to build directory, bitbake os-release
-
 3.If bitbake os-release run succcessfully, bitbake the image again 
-
 4. Unzip the tar file in a local folder
-
 5. navigate to /etc and observe os-release is available.
 
 kj@kj-Aspire-V3-471G:~/untap_fs/etc$ cat os-release
